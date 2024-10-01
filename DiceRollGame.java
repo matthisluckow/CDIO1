@@ -1,5 +1,5 @@
 import java.util.Random;
-
+// Dette er en tilføjelse 
 public class DiceRollGame {
     public static void main(String[] args) {
         // Create a random number generator
