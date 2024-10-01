@@ -4,6 +4,10 @@ public class DiceRollGame {
     public static void main(String[] args) {
         // Create a random number generator
         Random random = new Random();
+
+        // Measure the start time
+        long startTime = System.currentTimeMillis();
+
         int player1Total = 0;
         int player2Total = 0;
 
@@ -29,6 +33,13 @@ public class DiceRollGame {
         } else {
             System.out.println("Player 2 wins with a total of: " + player2Total);
         }
+
+        // Measure the end time and calculate the elapsed time
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+
+        // Print the elapsed time
+        System.out.println("Game execution time: " + elapsedTime + " milliseconds");
     }
 
     // Method to simulate rolling a die (1 to 6)
