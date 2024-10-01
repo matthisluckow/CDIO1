@@ -1,3 +1,3 @@
-## Dette er en overskrift
+## Markdown cheatsheat
 
-#####Dette er ikke en overskrift
+Check this https://www.markdownguide.org/cheat-sheet/
